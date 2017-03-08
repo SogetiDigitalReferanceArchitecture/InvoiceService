@@ -1,0 +1,56 @@
+{
+  "name": "invoice",
+  "plural": "invoices",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "number": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "default": "created"
+    },
+    "createdBy": {
+      "type": "user",
+      "required": true
+    },
+    "approvedBy": {
+      "type": "user"
+    },
+    "date": {
+      "type": "date",
+      "required": true,
+      "defaultFn": "now"
+    },
+    "billfrom": {
+      "type": "organization",
+      "required": true
+    },
+    "billto": {
+      "type": "organization",
+      "required": true
+    },
+    "items": {
+      "type": [
+        {
+          "type": "item"
+        }
+      ],
+      "required": true
+    },
+    "total": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "organization",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "sample"
+    },
+    "address": {
+      "type": "address"
+    },
+    "phone": {
+      "type": "string",
+      "default": "email"
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
