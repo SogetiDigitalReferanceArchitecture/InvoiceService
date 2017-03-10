@@ -1,0 +1,12 @@
+{
+  "ira_invoice": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "ira_invoice",
+    "password": "",
+    "name": "ira_invoice",
+    "user": "",
+    "connector": "mongodb"
+  }
+}

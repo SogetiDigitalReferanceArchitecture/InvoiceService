@@ -19,7 +19,7 @@
   },
   "item": {
     "dataSource": "ira_invoice",
-    "public": true
+    "public": false
   },
   "invoice": {
     "dataSource": "ira_invoice",
