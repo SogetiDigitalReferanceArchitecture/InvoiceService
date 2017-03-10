@@ -1,12 +1,12 @@
 {
   "ira_invoice": {
-    "host": "localhost",
-    "port": 27017,
+    "host": "sl-us-dal-9-portal.5.dblayer.com",
+    "port": 21090,
     "url": "",
-    "database": "ira_invoice",
-    "password": "",
+    "database": "ira-mongo-repository",
+    "password": "admin",
     "name": "ira_invoice",
     "user": "",
-    "connector": "mongodb"
+    "connector": "REKILOUYGNGKVWNS"
   }
 }
