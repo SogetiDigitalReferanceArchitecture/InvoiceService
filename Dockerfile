@@ -4,7 +4,8 @@ FROM node
 MAINTAINER Prashant Shandilya "prashant.shandilya@capgemini.com"
 
 # Install the application
-ADD package.json package.json 
+ADD package.json package.json
+RUN npm install -g loopback-cli 
 RUN npm install  
 ADD /server/server.js /server/server.js
 ENV WEB_PORT 80
