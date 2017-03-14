@@ -7,6 +7,6 @@
     "password": "REKILOUYGNGKVWNS",
     "name": "admin",
     "user": "admin",
-    "connector": "mongodb "
+    "connector": "mongodb"
   }
 }
