@@ -15,7 +15,7 @@ COPY . /app
 ENV WEB_PORT 8080
 EXPOSE  8080
 
-# IBM vulnerability advisor policies
+# Run IBM vulnerability advisor policies 
 RUN sed -i -e '/^PASS_MIN_DAYS/ s/0/1/' /etc/login.defs
 RUN sed -i -e '/^PASS_MAX_DAYS/ s/99999/90/' /etc/login.defs
 RUN sed -i -e '/^password.*pam_unix.so/ s/$/ minlen=8/' /etc/pam.d/common-password 
