@@ -14,23 +14,23 @@
     ]
   },
   "organization": {
-    "dataSource": "ira_invoice",
+    "dataSource": "ira_cloudant",
     "public": false
   },
   "item": {
-    "dataSource": "ira_invoice",
+    "dataSource": "ira_cloudant",
     "public": false
   },
   "invoice": {
-    "dataSource": "ira_invoice",
+    "dataSource": "ira_cloudant",
     "public": true
   },
   "address": {
-    "dataSource": "ira_invoice",
+    "dataSource": "ira_cloudant",
     "public": false
   },
   "user": {
-    "dataSource": "ira_invoice",
+    "dataSource": "ira_cloudant",
     "public": false
   }
 }

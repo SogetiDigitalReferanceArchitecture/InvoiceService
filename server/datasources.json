@@ -1,5 +1,11 @@
 {
-  "ira_invoice": {
-    
+  "ira_cloudant": {
+    "url": "https://4e658e52-055e-47ba-88a1-4d10e52175ce-bluemix:f795b3841db9eb118a4fc428334b440898c5b816363622ee16a13833bf3f9393@4e658e52-055e-47ba-88a1-4d10e52175ce-bluemix.cloudant.com",
+    "database": "ira-repo",
+    "username": "4e658e52-055e-47ba-88a1-4d10e52175ce-bluemix",
+    "password": "f795b3841db9eb118a4fc428334b440898c5b816363622ee16a13833bf3f9393",
+    "name": "ira_cloudant",
+    "modelIndex": "",
+    "connector": "cloudant"
   }
 }
