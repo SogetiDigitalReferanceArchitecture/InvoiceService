@@ -8,15 +8,13 @@
   "properties": {
     "name": {
       "type": "string",
-      "required": true,
-      "default": "sample"
+      "required": true
     },
     "address": {
       "type": "address"
     },
     "phone": {
-      "type": "string",
-      "default": "email"
+      "type": "string"
     },
     "email": {
       "type": "string"

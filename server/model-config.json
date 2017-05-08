@@ -15,21 +15,17 @@
   },
   "organization": {
     "dataSource": "ira_cloudant",
-    "public": false
+    "public": true
   },
   "item": {
     "dataSource": "ira_cloudant",
-    "public": false
+    "public": true
   },
   "invoice": {
     "dataSource": "ira_cloudant",
     "public": true
   },
   "address": {
-    "dataSource": "ira_cloudant",
-    "public": false
-  },
-  "user": {
     "dataSource": "ira_cloudant",
     "public": false
   }

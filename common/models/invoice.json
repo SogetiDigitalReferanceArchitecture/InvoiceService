@@ -17,16 +17,20 @@
       "default": "created"
     },
     "createdBy": {
-      "type": "user",
+      "type": "number",
       "required": true
-    },
-    "approvedBy": {
-      "type": "user"
     },
     "date": {
       "type": "date",
       "required": true,
       "defaultFn": "now"
+    },
+    "approvedBy": {
+      "type": "number"
+    },
+    "approvalDate": {
+      "type": "date",
+      "required": false
     },
     "billfrom": {
       "type": "organization",
@@ -37,11 +41,9 @@
       "required": true
     },
     "items": {
-      "type": [
-        {
-          "type": "item"
-        }
-      ],
+      "type": [{
+        "type": "item"
+      }],
       "required": true
     },
     "total": {
